@@ -1,0 +1,5 @@
+C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\bin\Release\StudentGrades.exe
+C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\bin\Release\StudentGrades.pdb
+C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\obj\x86\Release\StudentGrades.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\obj\x86\Release\StudentGrades.exe
+C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\obj\x86\Release\StudentGrades.pdb

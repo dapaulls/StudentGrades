@@ -2,3 +2,7 @@ C:\Users\David\AppData\Local\Temporary Projects\StudentGrades\bin\Debug\StudentG
 C:\Users\David\AppData\Local\Temporary Projects\StudentGrades\bin\Debug\StudentGrades.pdb
 C:\Users\David\AppData\Local\Temporary Projects\StudentGrades\obj\x86\Debug\StudentGrades.exe
 C:\Users\David\AppData\Local\Temporary Projects\StudentGrades\obj\x86\Debug\StudentGrades.pdb
+C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\obj\x86\Debug\StudentGrades.exe
+C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\obj\x86\Debug\StudentGrades.pdb
+C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\bin\Debug\StudentGrades.exe
+C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\bin\Debug\StudentGrades.pdb
