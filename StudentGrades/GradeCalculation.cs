@@ -8,8 +8,6 @@ namespace StudentGrades
 {
     class GradeCalculation
     {
-        public string SubjectName { get; set; }
-        public int SubjectMark { get; set; }
         public int NoOfSubjects { get; set; }
         public int CourseTotal { get; set; }
         public float CourseAverage { get; set; }

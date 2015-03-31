@@ -1,6 +1,6 @@
 ﻿/* HND Computing and Systems Development
  * Unit 19 - Object Orientated Programming
- * Semester 2, June - October 2013 (updated August 2014)
+ * Semester 2, June - October 2013 (updated March 2015)
  * by David Paulls
  * This program calculates a student's grades and final score from the subject marks input.
  *
@@ -10,7 +10,7 @@
  *      3. Calculate the grade for each subject
  *      4. Add the subject marks together to find the total
  *      5. Divide the total by the number of subjects to find the course average
- *      6. From the average calculate the overall grade
+ *      6. From the course average calculate the final overall grade
  */
 
 
