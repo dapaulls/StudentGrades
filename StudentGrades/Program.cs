@@ -40,7 +40,7 @@ namespace StudentGrades
                 // Create a list to store the subject names, marks and calculated grade.
                 List<SubjectAndMark> subjectandMark = new List<SubjectAndMark>();
 
-                // Get the subject names and marks and add them to the list. 
+                // Get the subject names and marks, calculate the grade, and add them to the list. 
                 for (int i = 0; i < noOfSubjects; i++)
                 {
                     SubjectAndMark newSubject = newStudent.AddSubjectAndMark(i + 1);
