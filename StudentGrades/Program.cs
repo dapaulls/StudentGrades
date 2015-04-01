@@ -5,12 +5,13 @@
  * This program calculates a student's grades and final score from the subject marks input.
  *
  * PSEUDOCODE:
- *      1. Get the number of subjects
- *      2. Get the name and mark for each subject
- *      3. Calculate the grade for each subject
- *      4. Add the subject marks together to find the total
- *      5. Divide the total by the number of subjects to find the course average
- *      6. From the course average calculate the final overall grade
+ *      1. Get the number of subjects.
+ *      2. Get the name and mark for each subject.
+ *      3. Calculate the grade for each subject.
+ *      4. Add the subject marks together to find the total.
+ *      5. Divide the total by the number of subjects to find the course average.
+ *      6. From the course average calculate the final overall grade.
+ *      7. Display the report.
  */
 
 
@@ -28,38 +29,34 @@ namespace StudentGrades
         {
             do
             {
+                // Create a new instance of the GradeCalculationProgram
                 GradeCalculation newStudent = new GradeCalculation();
 
-                Console.Clear();
-                Console.WriteLine("STUDENT'S GRADE CALCULATION PROGRAM");
-                Console.WriteLine("-----------------------------------\n");
+                // Display the program's title
+                newStudent.DisplayProgramTitle();
 
                 // Get number of subjects.
-                int noOfSubjects = newStudent.InputNoOfSubjects();
+                int noOfSubjects = newStudent.GetNoOfSubjects();
 
                 // Create a list to store the subject names, marks and calculated grade.
-                List<SubjectAndMark> subjectandMark = new List<SubjectAndMark>();
+                List<SubjectAndMark> marksTable = newStudent.CreateMarksTable();
 
-                // Get the subject names and marks, calculate the grade, and add them to the list. 
-                for (int i = 0; i < noOfSubjects; i++)
-                {
-                    SubjectAndMark newSubject = newStudent.AddSubjectAndMark(i + 1);
-                    subjectandMark.Add(newSubject);
-                }
-
+                // Populate the table with the student's results
+                marksTable = newStudent.PopulateMarksTable(noOfSubjects, marksTable);
+                
                 // Calculate the course total.
-                newStudent.CalculateCourseTotal(subjectandMark);
+                int courseTotal = newStudent.CalculateCourseTotal(marksTable);
 
                 // Calculate the course average mark.
-                newStudent.CalculateCourseAverage();
+                float courseAverage = newStudent.CalculateCourseAverage(courseTotal, noOfSubjects);
 
                 // Calculate the course grade.
-                newStudent.CalculateCourseGrade();
+                string overallGrade = newStudent.CalculateCourseGrade(courseAverage);
 
                 // Print report.
-                newStudent.DisplayTable(subjectandMark);
+                newStudent.DisplayTable(marksTable, courseTotal, courseAverage, overallGrade);
 
-                Console.WriteLine("\nWould you like to run the program again? ('Y' for yes, any other key to quit.)");
+                Console.WriteLine("\n\nWould you like to run the program again? ('Y' for yes, any other key to quit.)");
             }
             while (Console.ReadLine().ToLower() == "y");
         }

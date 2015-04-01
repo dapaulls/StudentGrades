@@ -7,3 +7,8 @@ C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\obj\x86\Debug\Studen
 C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\bin\Debug\StudentGrades.exe
 C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\bin\Debug\StudentGrades.pdb
 C:\Users\David\Documents\GitHub\StudentGrades\StudentGrades\obj\x86\Debug\StudentGrades.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\Visual Studio 2013\Projects\StudentGrades\StudentGrades\obj\x86\Debug\StudentGrades.exe
+C:\Users\David\Documents\Visual Studio 2013\Projects\StudentGrades\StudentGrades\obj\x86\Debug\StudentGrades.pdb
+C:\Users\David\Documents\Visual Studio 2013\Projects\StudentGrades\StudentGrades\bin\Debug\StudentGrades.exe
+C:\Users\David\Documents\Visual Studio 2013\Projects\StudentGrades\StudentGrades\bin\Debug\StudentGrades.pdb
+C:\Users\David\Documents\Visual Studio 2013\Projects\StudentGrades\StudentGrades\obj\x86\Debug\StudentGrades.csprojResolveAssemblyReference.cache
